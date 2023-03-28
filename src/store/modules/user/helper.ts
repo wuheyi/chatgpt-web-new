@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://github.com/wuheyi/chatgpt-web-new/tree/main/docs/alipay.png',
+      avatar: 'https://github.com/wuheyi/chatgpt-web-new/tree/dev/docs/alipay.png',
       name: 'wuheyi',
-      description: '赞助 <a href="https://github.com/wuheyi/chatgpt-web-new/tree/main/docs/alipay.png" class="text-blue-500" target="_blank" >Github</a>',
+      description: '赞助 <a href="https://github.com/wuheyi/chatgpt-web-new/tree/dev/docs/alipay.png" class="text-blue-500" target="_blank" >Github</a>',
     },
   }
 }
