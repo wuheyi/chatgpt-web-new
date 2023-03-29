@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://github.com/wuheyi/chatgpt-web-new/blob/dev/docs/alipay.png',
       name: '小伍fighting',
-      description: '扫码赞助后加QQ群交流:640516930',
+      description: 'QQ交流群:640516930',
     },
   }
 }
