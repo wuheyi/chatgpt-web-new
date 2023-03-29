@@ -56,7 +56,10 @@ dataSources.value.forEach((item, index) => {
 })
 
 function handleSubmit() {
-  onConversation()
+  const confirmed = confirm('这是我的测试广告！！！')
+  if (confirmed) {
+    onConversation()
+  }
 }
 
 async function onConversation() {
