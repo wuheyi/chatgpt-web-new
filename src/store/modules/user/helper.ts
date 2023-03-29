@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://avatars.githubusercontent.com/u/4252951?v=4',
       name: '小伍fighting',
-      description: '<a href="docs/alipay.png" class="text-blue-500" target="_blank" >赞助</a>',
+      description: '<img src="docs/alipay.png" alt="扫码赞助后加QQ群交流:640516930" width="20" height="20">',
     },
   }
 }
