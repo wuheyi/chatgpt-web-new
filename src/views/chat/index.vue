@@ -56,30 +56,7 @@ dataSources.value.forEach((item, index) => {
 })
 
 function handleSubmit() {
-  // 打开模态框或弹窗
-  const modal = document.createElement('div')
-  modal.style.position = 'fixed'
-  modal.style.top = '0'
-  modal.style.left = '0'
-  modal.style.width = '100%'
-  modal.style.height = '100%'
-  modal.style.display = 'flex'
-  modal.style.justifyContent = 'center'
-  modal.style.alignItems = 'center'
-  modal.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
-  
-  const img = document.createElement('img')
-  img.src = 'https://github.com/wuheyi/chatgpt-web-new/blob/dev/docs/alipay.png'
-  img.style.maxWidth = '90%'
-  
-  modal.appendChild(img)
-  document.body.appendChild(modal)
-  
-  // 添加关闭事件监听器
-  modal.addEventListener('click', () => {
-    document.body.removeChild(modal) // 关闭模态框或弹窗
-    onConversation() // 执行 onConversation 函数
-  }, { once: true }) // 确保只会触发一次事件监听器
+  onConversation()
 }
 
 
