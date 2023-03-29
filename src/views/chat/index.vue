@@ -56,9 +56,14 @@ dataSources.value.forEach((item, index) => {
 })
 
 function handleSubmit() {
-
-  onConversation()
-
+  var img = document.createElement('img');
+  img.src = 'assets/avatar.jpg';
+  var div = document.createElement('div');
+  div.appendChild(img);
+  var result = window.confirm(div.innerHTML);
+  if (result) {
+    onConversation();
+  }
 }
 
 async function onConversation() {
